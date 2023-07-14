@@ -31,7 +31,9 @@ public:
       new_node->next = new_node1->next;
       new_node1->next= new_node;
     }
-    
+/*the simulation for the aforementioned code:
+https://youtu.be/B31LgI4Y4DQ
+time stamp => 1:25:47*/
   }
   void traverse() {
     Node* current_node = head;
